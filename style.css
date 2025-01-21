@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+:root{
+    --verdeMusgo:#baed1d;
+    --azulMedio: #004cce;
+    --fontTema: 'Poetsen One'
+    
+}
+body{
+   background-color: white;
+   
+}
+h1{
+    font-family: var(--fontTema);
+color: var(--azulMedio);
+font-size: 120px;
+}
