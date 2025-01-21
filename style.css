@@ -1,16 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-:root{
-    --verdeMusgo:#baed1d;
+
+:root {
+    --verdeMusgo: #baed1d;
     --azulMedio: #004cce;
+    --laranja: #fd700e;
+    --amarelo: #f9e210;
+    --ciano: #94e3e6;
     --fontTema: 'Poetsen One'
-    
+
 }
-body{
-   background-color: white;
-   
+
+body {
+    background-color: white;
+
 }
-h1{
+
+h1 {
     font-family: var(--fontTema);
-color: var(--azulMedio);
-font-size: 120px;
+    color: var(--azulMedio);
+    font-size: 190px;
+    text-shadow: 1px 0 10px var(--ciano);
+}
+
+.ordem {
+    background-color: /* #b6afb1 */ white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    position: relative;
+    align-self: center;
+}
+
+.botoesIndex {
+    width: 420px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: var(--verdeMusgo);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: var(--fontTema);
+    color: var(--azulMedio);
+    border: none;
+    box-shadow: 0px -1px 15px 1px var(--ciano);
+}
+
+#esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: /* aqua */ white;
+    align-items: center;
+
+}
+
+#direita {
+    background-color: white;
 }
