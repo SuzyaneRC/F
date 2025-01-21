@@ -26,7 +26,6 @@ h1 {
     background-color: /* #b6afb1 */ white;
     display: flex;
     align-items: center;
-    height: 100vh;
     justify-content: space-around;
     position: relative;
     align-self: center;
@@ -56,4 +55,18 @@ h1 {
 
 #direita {
     background-color: white;
+}
+#triangulos{
+    height: 18px;
+    /*background-color: #004cce;*/
+    background-image: url(/imagens/images.png);
+   /* border-image-repeat: repeat;*/
+   background-repeat: repeat-x;
+   width: 100%;
+   background-size: 2vw 18px; 
+}
+header{
+    height: 70px;
+    width: 100%;
+
 }
