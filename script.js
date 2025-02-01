@@ -12,12 +12,12 @@ divIndivual.classList.add('showsDiv');
 
         divIndivual.innerHTML =  `
         <img src= "${user.imgUrl}" id="imagenss"></img>
-            <h1>${user.name}</h1>
+            <h1 id="tituloDiv">${user.name}</h1>
             <p>${user.description}</p>
-            <p>${user.type}</p>
-            <p>${user.startDate}</p>
-            <p>${user.endDate}</p>
-            <p>${user.location}</p>
+            <p>Tipo de atração: ${user.type}</p>
+            <p> Início: ${user.startDate} </p>
+            <p>Término: ${user.endDate}</p>
+            <p>Local: ${user.location}</p>
         
         `;
 

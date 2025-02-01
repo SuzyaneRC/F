@@ -16,9 +16,6 @@ body {
 }
 
 h1 {
-    font-family: var(--fontTema);
-    color: var(--azulMedio);
-    text-shadow: 1px 0 10px var(--ciano);
 }
 
 .ordem {
@@ -69,27 +66,10 @@ header{
     width: 100%;
 
 }
-#imagenss{
-    height: 220px;
-    width: 240px;
-}
 #titulo{
     font-size: 190px;
+    font-family: var(--fontTema);
+    color: var(--azulMedio);
+    text-shadow: 1px 0 10px var(--ciano);
+}
 
-}
-.ordemShows{
-    color: #004cce;
-}
-#listaShows{
-background: var(--amarelo);
-display: flex;
-flex-wrap: wrap;
-gap: 12px;
-}
-.showsDiv{
-    background: #baed1d;
-    flex: 1 1 25%;
-    border-radius: 10px;
-    padding: 5px;
-
-}

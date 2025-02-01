@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+    --verdeMusgo: #baed1d;
+    --azulMedio: #004cce;
+    --laranja: #fd700e;
+    --amarelo: #f9e210;
+    --ciano: #94e3e6;
+    --fontTema: 'Poetsen One';
+    --fontP: 'Roboto Slab';
+}
+
+body {
+    background-color: white;
+
+}
+
+#triangulos {
+    height: 18px;
+    /*background-color: #004cce;*/
+    background-image: url(/imagens/images.png);
+    /* border-image-repeat: repeat;*/
+    background-repeat: repeat-x;
+    width: 100%;
+    background-size: 2vw 18px;
+}
+
+#imagenss {
+    height: 120px;
+    width: 270px;
+}
+
+.ordemShows {
+    padding-left: 7%;
+}
+
+#listaShows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #000;
+
+}
+
+.showsDiv {
+    flex: 0 0 15%;
+    border-radius: 10px;
+    padding: 5px;
+    /* border: 3px solid var(--verdeMusgo);*/
+    box-shadow: 0px -1px 2px 1px var(--verdeMusgo);
+
+
+}
+
+#tituloShows,
+#tituloDiv {
+    font-family: var(--fontTema);
+    color: var(--verdeMusgo);
+    text-align: center;
+
+}
+
+#tituloShows {
+    font-size: 80px;
+    width: 450px;
+    padding: 5px;
+    border: 2px solid var(--azulMedio);
+    border-radius: 10px;
+    background: var(--azulMedio);
+    text-shadow: 1px 0 10px var(--ciano);
+}
+
+#tituloDiv {
+    font-size: 20px;
+}
+
+p {
+    color: var(--azulMedio);
+    font-family: var(--fontP);
+    font-weight: 800px;
+    font-size: 12px;
+}
+
+#cabeçalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
