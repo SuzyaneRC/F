@@ -18,7 +18,6 @@ body {
 h1 {
     font-family: var(--fontTema);
     color: var(--azulMedio);
-    font-size: 190px;
     text-shadow: 1px 0 10px var(--ciano);
 }
 
@@ -68,5 +67,13 @@ h1 {
 header{
     height: 70px;
     width: 100%;
+
+}
+#imagenss{
+    height: 300px;
+    width: 100px;
+}
+#titulo{
+    font-size: 190px;
 
 }
