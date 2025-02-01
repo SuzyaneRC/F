@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Shows</title>
+</head>
+<body>
+    <h1>Shows:</h1>
+    <ul></ul>
+
+    <script>
+        fetch('https://fasc2025.onrender.com/shows').then(
+            res => {
+                return res.json();
+            }
+        ).then(data => {
+            data.forEach(user => {
+                const markup = `
+                    <li>${user.name}</li>
+                    <li>${user.description}</li>
+                    <li>${user.type}</li>
+                    <li>${user.startDate}</li>
+                    <li>${user.endDate}</li>
+                    <li>${user.location}</li>
+                    <hr>
+                `;
+
+                document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
+            });
+        }).catch(error => console.log(error));
+    </script>
+</body>
+</html>
