@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Palcos</title>
+</head>
+<body>
+    <h1>Palcos:</h1>
+    <ul></ul>
+    <script>
+        fetch('https://fasc2025.onrender.com/palcos').then(
+            res => {
+                return res.json();
+            }
+        ).then(data => {
+            data.forEach(stage => {
+                const markup = `
+                    <li>${stage.name}</li>
+                    <li>${stage.location}</li>
+                    <li>${stage.history}</li>
+                    <hr>
+                `;
+                document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
+            });
+        }).catch(error => console.log(error));
+    </script>
+</body>
+</html>

@@ -11,7 +11,7 @@ const divIndivual = document.createElement('div');
 divIndivual.classList.add('showsDiv'); 
 
         divIndivual.innerHTML =  `
-        <img src= "${user.imgUrl}" id="imagenss"></img>
+            <img src= "${user.imgUrl}" id="imagenss"></img>
             <h1 id="tituloDiv">${user.name}</h1>
             <p>${user.description}</p>
             <p>Tipo de atração: ${user.type}</p>
