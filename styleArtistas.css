@@ -27,24 +27,22 @@ body {
     background-size: 2vw 18px;
 }
 
-#imagenss {
+#imagensArtistas {
     height: 120px;
     width: 270px;
 }
 
-.ordemShows {
+.ordemArtistas {
     padding-left: 7%;
 }
 
-#listaShows {
+#listaArtistas {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    color: #000;
-
 }
 
-.showsDiv {
+.ArtistasDiv {
     flex: 0 0 15%;
     border-radius: 10px;
     padding: 5px;
@@ -54,14 +52,14 @@ body {
 
 }
 
-#tituloShows,
-#tituloDiv {
+#tituloArtistas,
+#tituloDivArtistas {
     font-family: var(--fontTema);
     text-align: center;
 
 }
 
-#tituloShows {
+#tituloArtistas {
     font-size: 80px;
     width: 450px;
     padding: 5px;
@@ -73,7 +71,7 @@ body {
     text-shadow: 1px 0 10px var(--ciano);
 }
 
-#tituloDiv {
+#tituloDivArtistas {
     font-size: 20px;
     color: var(--azulMedio);
 
@@ -87,7 +85,7 @@ p {
     font-size: 12px;
 }
 
-#cabeçalho {
+#cabeçalhoArtistas {
     display: flex;
     justify-content: center;
     align-items: center;

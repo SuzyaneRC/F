@@ -27,67 +27,57 @@ body {
     background-size: 2vw 18px;
 }
 
-#imagenss {
-    height: 120px;
-    width: 270px;
-}
-
-.ordemShows {
-    padding-left: 7%;
-}
-
-#listaShows {
+.ordemPalcos {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    color: #000;
+    justify-content: center;
+    align-items: center;}
 
+#listaPalcos {
+    display:block;
+    width: 75%;
 }
 
-.showsDiv {
-    flex: 0 0 15%;
+.PalcosDiv {
     border-radius: 10px;
     padding: 5px;
-    /* border: 3px solid var(--verdeMusgo);*/
+    /* border: 3px solid var(--verdeMusgo);
+    flex: 0 0 15%;
+    */
     box-shadow: 0px -1px 2px 1px var(--verdeMusgo);
+margin: 30px;
 
 
 }
 
-#tituloShows,
-#tituloDiv {
+#tituloPalcos,
+#tituloDivPalcos {
     font-family: var(--fontTema);
-    text-align: center;
+    color: var(--azulMedio);
 
 }
 
-#tituloShows {
+#tituloPalcos {
     font-size: 80px;
     width: 450px;
     padding: 5px;
-    border: 2px solid var(--azulMedio);
     border-radius: 10px;
-    background: var(--azulMedio);
-    color: var(--verdeMusgo);
-
+    background: var(--verdeMusgo);
     text-shadow: 1px 0 10px var(--ciano);
+    text-align: center;
 }
 
-#tituloDiv {
-    font-size: 20px;
-    color: var(--azulMedio);
-
-
+#tituloDivPalcos {
+    font-size: 30px;
 }
 
 p {
     color: var(--azulMedio);
     font-family: var(--fontP);
     font-weight: 800px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
-#cabeçalho {
+#cabeçalhoPalcos {
     display: flex;
     justify-content: center;
     align-items: center;

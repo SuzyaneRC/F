@@ -5,17 +5,17 @@ fetch('https://fasc2025.onrender.com/shows').then(
 ).then(data => {
     data.forEach(user => {
 
-const divIndivual = document.createElement('div');
+const divIndivualArtistas = document.createElement('div');
 
 
-divIndivual.classList.add('showsDiv'); 
+divIndivualArtistas.classList.add('ArtistasDiv'); 
 
-        divIndivual.innerHTML =  `
-            <img src= "${user.imgUrl}" id="imagenss"></img>
-            <h1 id="tituloDiv">${user.name}</h1>
+divIndivualArtistas.innerHTML =  `
+            <img src= "${user.imgUrl}" id="imagensArtistas"></img>
+            <h1 id="tituloDivArtistas">${user.name}</h1>
         `;
 
       //  document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
-      document.getElementById('listaShows').appendChild(divIndivual)
+      document.getElementById('listaArtistas').appendChild(divIndivualArtistas)
     });
 }).catch(error => console.log(error));
