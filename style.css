@@ -6,7 +6,11 @@
     --laranja: #fd700e;
     --amarelo: #f9e210;
     --ciano: #94e3e6;
-    --RoxoCandy: #5d65ae
+    --RoxoCandy: #5d65ae;
+    --rosaCandy: #f6007b;
+    --laranjaCandy: #ed5838;
+    --lilasCandy: #8450c6;
+    --azulCandy:#00ccd4
         /* #e16544 */
     ;
     --fontTema: 'Poetsen One'
@@ -45,12 +49,15 @@ body {
     font-weight: bolder;
     font-family: var(--fontTema);
     border: none;
+    
 }
 
 #esquerda {
     display: flex;
    width: 100%;
     align-items: center;
+    background-color: white;
+    justify-content: space-around;
 
 }
 
@@ -72,28 +79,32 @@ header {
 
 }
 
-#artistas {
+#artistas, #palcos {
     border-bottom: 50px solid var(--verdeMusgo);
-    background-color: var(--laranja);
-    border-right: 50px solid violet;
-    border-left: 50px solid violet;
+    background-color: white;
+    border-right: 150px solid white;
+    border-left: 150px solid white;
 
 
 }
-
-#palcos {
+#shows, #func {
     border-top: 50px solid var(--verdeMusgo);
-    background-color: violet;
-    border-right: 50px solid violet;
+    background-color: white;
+    border-right: 150px solid  white;
 
-    border-left: 50px solid violet;
+    border-left: 150px solid  white;
 
 }
-#shows {
-    border-bottom: 50px solid var(--verdeMusgo);
-    background-color: violet;
-    border-right: 50px solid violet;
+#artistas{
+    color: var(--lilasCandy) ;
 
-    border-left: 50px solid violet;
-
+}
+#shows{
+color: var(--rosaCandy);
+}
+#palcos {
+    color: var(--azulCandy);
+}
+#func{
+   color: var(--laranjaCandy); 
 }
