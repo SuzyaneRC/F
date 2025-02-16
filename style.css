@@ -6,45 +6,50 @@
     --laranja: #fd700e;
     --amarelo: #f9e210;
     --ciano: #94e3e6;
+    --RoxoCandy: #5d65ae
+        /* #e16544 */
+    ;
     --fontTema: 'Poetsen One'
 
 }
 
 body {
-    background-color: white;
+    background-color: var(--verdeMusgo);
 
 }
 
-h1 {
-}
+
 
 .ordem {
-    background-color: /* #b6afb1 */ white;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    position: relative;
     align-self: center;
+    gap: 0px;
+    /* 
+   justify-content: space-around;
+    position: relative;
+    */
 }
 
 .botoesIndex {
-    width: 420px;
+    /* width: 420px;
     height: 90px;
     border-radius: 10px;
     background-color: var(--verdeMusgo);
+    color: var(--azulMedio);
+    box-shadow: 0px -1px 15px 1px var(--ciano);
+
+ */
     font-size: 40px;
     font-weight: bolder;
     font-family: var(--fontTema);
-    color: var(--azulMedio);
     border: none;
-    box-shadow: 0px -1px 15px 1px var(--ciano);
 }
 
 #esquerda {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background-color: /* aqua */ white;
+   width: 100%;
     align-items: center;
 
 }
@@ -52,24 +57,43 @@ h1 {
 #direita {
     background-color: white;
 }
-#triangulos{
-    height: 18px;
-    /*background-color: #004cce;*/
-    background-image: url(/imagens/images.png);
-   /* border-image-repeat: repeat;*/
-   background-repeat: repeat-x;
-   width: 100%;
-   background-size: 2vw 18px; 
+
+#triangulos {
+    height: 50px;
+    background-image: url(/imagens/imagesbranco.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    background-size: 25px 25px;
 }
-header{
+
+header {
     height: 70px;
     width: 100%;
 
 }
-#titulo{
-    font-size: 190px;
-    font-family: var(--fontTema);
-    color: var(--azulMedio);
-    text-shadow: 1px 0 10px var(--ciano);
+
+#artistas {
+    border-bottom: 50px solid var(--verdeMusgo);
+    background-color: var(--laranja);
+    border-right: 50px solid violet;
+    border-left: 50px solid violet;
+
+
 }
 
+#palcos {
+    border-top: 50px solid var(--verdeMusgo);
+    background-color: violet;
+    border-right: 50px solid violet;
+
+    border-left: 50px solid violet;
+
+}
+#shows {
+    border-bottom: 50px solid var(--verdeMusgo);
+    background-color: violet;
+    border-right: 50px solid violet;
+
+    border-left: 50px solid violet;
+
+}
