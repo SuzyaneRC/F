@@ -8,23 +8,28 @@
     --laranja: #fd700e;
     --amarelo: #f9e210;
     --ciano: #94e3e6;
-    --fontTema: 'Poetsen One';
-    --fontP: 'Roboto Slab';
+    --RoxoCandy: #5d65ae;
+    --rosaCandy: #f6007b;
+    --laranjaCandy: #ed5838;
+    --lilasCandy: #8450c6;
+    --azulCandy:#00ccd4;
+    --fontTema: 'Poetsen One'
+
 }
 
 body {
-    background-color: white;
+    background-color:var(--verdeMusgo);
 
 }
 
 #triangulos {
     height: 18px;
     /*background-color: #004cce;*/
-    background-image: url(/imagens/images.png);
+    background-image: url(/imagens/imagesbranco.png);
     /* border-image-repeat: repeat;*/
     background-repeat: repeat-x;
     width: 100%;
-    background-size: 2vw 18px;
+    background-size: 10px 10px;
 }
 
 .ordemPalcos {
@@ -34,7 +39,7 @@ body {
 
 #listaPalcos {
     display:block;
-    width: 75%;
+    width: 85%;
 }
 
 .PalcosDiv {
@@ -43,8 +48,10 @@ body {
     /* border: 3px solid var(--verdeMusgo);
     flex: 0 0 15%;
     */
-    box-shadow: 0px -1px 2px 1px var(--verdeMusgo);
-margin: 30px;
+    box-shadow: 1px -1px 15px 1px white;
+margin: 70px;
+background-color: var(--azulCandy);
+
 
 
 }
@@ -52,7 +59,7 @@ margin: 30px;
 #tituloPalcos,
 #tituloDivPalcos {
     font-family: var(--fontTema);
-    color: var(--azulMedio);
+    color: white;
 
 }
 
@@ -61,7 +68,6 @@ margin: 30px;
     width: 450px;
     padding: 5px;
     border-radius: 10px;
-    background: var(--verdeMusgo);
     text-shadow: 1px 0 10px var(--ciano);
     text-align: center;
 }
@@ -71,7 +77,7 @@ margin: 30px;
 }
 
 p {
-    color: var(--azulMedio);
+    color: white;
     font-family: var(--fontP);
     font-weight: 800px;
     font-size: 18px;
