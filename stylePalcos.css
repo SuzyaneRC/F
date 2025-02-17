@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@498&display=swap');
 
 :root {
     --verdeMusgo: #baed1d;
@@ -13,7 +12,9 @@
     --laranjaCandy: #ed5838;
     --lilasCandy: #8450c6;
     --azulCandy:#00ccd4;
-    --fontTema: 'Poetsen One'
+    --fontTema: 'Poetsen One';
+    --fontPg: 'Oswald';
+
 
 }
 
@@ -67,7 +68,6 @@ background-color: var(--azulCandy);
     font-size: 80px;
     width: 450px;
     padding: 5px;
-    border-radius: 10px;
     text-shadow: 1px 0 10px var(--ciano);
     text-align: center;
 }
@@ -78,7 +78,7 @@ background-color: var(--azulCandy);
 
 p {
     color: white;
-    font-family: var(--fontP);
+    font-family: var(--fontPg);
     font-weight: 800px;
     font-size: 18px;
 }

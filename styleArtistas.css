@@ -1,35 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
 :root {
     --verdeMusgo: #baed1d;
     --azulMedio: #004cce;
     --laranja: #fd700e;
     --amarelo: #f9e210;
     --ciano: #94e3e6;
+    --RoxoCandy: #5d65ae;
+    --rosaCandy: #f6007b;
+    --laranjaCandy: #ed5838;
+    --lilasCandy: #8450c6;
+    --azulCandy:#00ccd4;
     --fontTema: 'Poetsen One';
-    --fontP: 'Roboto Slab';
+    
 }
 
 body {
-    background-color: white;
+    background-color: var(--verdeMusgo);
 
 }
 
 #triangulos {
     height: 18px;
-    /*background-color: #004cce;*/
-    background-image: url(/imagens/images.png);
-    /* border-image-repeat: repeat;*/
+    background-image: url(/imagens/imagesbranco.png);  
     background-repeat: repeat-x;
     width: 100%;
-    background-size: 2vw 18px;
+    background-size: 20px 20px;
 }
 
 #imagensArtistas {
     height: 120px;
     width: 270px;
+border-radius: 10px;
 }
 
 .ordemArtistas {
@@ -46,10 +48,8 @@ body {
     flex: 0 0 15%;
     border-radius: 10px;
     padding: 5px;
-    /* border: 3px solid var(--verdeMusgo);*/
-    box-shadow: 0px -1px 2px 1px var(--verdeMusgo);
-
-
+    background-color: var(--RoxoCandy);
+    box-shadow:1px -1px 15px 1px white;
 }
 
 #tituloArtistas,
@@ -63,27 +63,15 @@ body {
     font-size: 80px;
     width: 450px;
     padding: 5px;
-    border: 2px solid var(--azulMedio);
-    border-radius: 10px;
-    background: var(--azulMedio);
-    color: var(--verdeMusgo);
-
+    color: white;
     text-shadow: 1px 0 10px var(--ciano);
 }
 
 #tituloDivArtistas {
     font-size: 20px;
-    color: var(--azulMedio);
-
-
+    color: white;
 }
 
-p {
-    color: var(--azulMedio);
-    font-family: var(--fontP);
-    font-weight: 800px;
-    font-size: 12px;
-}
 
 #cabeçalhoArtistas {
     display: flex;
