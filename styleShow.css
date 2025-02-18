@@ -8,7 +8,7 @@
     --amarelo: #f9e210;
     --ciano: #94e3e6;
     --RoxoCandy: #5d65ae;
-    --rosaCandy: #f6007b;
+    --rosaCandy: #df4f97;
     --laranjaCandy: #ed5838;
     --lilasCandy: #8450c6;
     --azulCandy:#00ccd4;
@@ -86,8 +86,8 @@ background-color: var(--rosaCandy);
 p {
     color: white;
     font-family: var(--fontPg);
-    font-weight: 800px;
-    font-size: 12px;
+    font-weight: 600px;
+    font-size: 14px;
 }
 
 #cabeçalho {

@@ -29,7 +29,8 @@ body {
     flex-direction: column;
     align-items: center;
     align-self: center;
-    gap: 0px;
+    gap: 1px;
+
     /* 
    justify-content: space-around;
     position: relative;
@@ -49,7 +50,7 @@ body {
     font-weight: bolder;
     font-family: var(--fontTema);
     border: none;
-    
+    background-color: white;
 }
 
 #esquerda {
@@ -79,22 +80,6 @@ header {
 
 }
 
-#artistas, #palcos {
-    border-bottom: 50px solid var(--verdeMusgo);
-    background-color: white;
-    border-right: 150px solid white;
-    border-left: 150px solid white;
-
-
-}
-#shows, #func {
-    border-top: 50px solid var(--verdeMusgo);
-    background-color: white;
-    border-right: 150px solid  white;
-
-    border-left: 150px solid  white;
-
-}
 #artistas{
     color: var(--lilasCandy) ;
 
