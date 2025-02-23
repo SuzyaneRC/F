@@ -20,11 +20,11 @@ body {
     width: 350px;
     height: 550px;
     border-radius: 20px;
-    background: #778a9b;
+    background: #ed5838;
     box-shadow: 0 40px 100px rgba(255, 255, 255, 0.1);
     padding: 30px;
     overflow: hidden;
-    color: #000000;
+    color: #ffffff;
 }
 
 .music-name,
