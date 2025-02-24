@@ -102,6 +102,10 @@ header {
 
 }
 
+#home {
+    color: var(--azulMedio);
+}
+
 #artistas{
     color: var(--lilasCandy) ;
 
