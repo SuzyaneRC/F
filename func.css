@@ -205,6 +205,10 @@ body {
     border: none;
     background-color: #ed5838;
     cursor: pointer;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50% , -50%);
+    margin-top: 20px;
     
 }
 
