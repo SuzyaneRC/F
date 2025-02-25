@@ -12,8 +12,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #c7f022;
+    background: linear-gradient(-45deg, #004cce, #8450c6, #f6007b, #00ccd4, #ed5838);
+    background-size: 400% 400%;
     font-family: "DM Sans", serif;
+    animation: bg 12s ease infinite;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .music-player {
@@ -180,4 +194,31 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.return-btn {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "DM Sans", serif;
+    border: none;
+    background-color: #ed5838;
+    cursor: pointer;
+    
+}
+
+.return-btn::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 6px;
+    width: 0;
+    background: #000000;
+    border-radius: 50px;
+    transition: width 0.3s ease;
+}
+
+.return-btn:hover::before {
+    width: 100%;
 }
