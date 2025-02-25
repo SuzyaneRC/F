@@ -13,5 +13,10 @@ let songs = [
         name: 'Ouriço',
         path: 'musicas/Juliano Holanda - Ouriço.mp3',
         artist: 'Juliano Holanda'
+    },
+    {
+        name: 'Despedida',
+        path: 'musicas/Selvagens à Procura de Lei - Despedida.mp3',
+        artist: 'Selvagens à Procura de Lei'
     }
 ]
